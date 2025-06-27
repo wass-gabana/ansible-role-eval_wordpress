@@ -1,0 +1,18 @@
+---
+# Parametres base de donnees
+wordpress_db_name: GabanaDB
+wordpress_db_user: wassim
+wordpress_db_password: wassim
+wordpress_db_root_password: wassim
+
+# Parametres installation
+wordpress_install_dir: /var/www/html
+wordpress_download_url: https://wordpress.org/latest.zip
+
+# Parametres apache
+wordpress_admin_email: "wassim.bagana@supdevinci-edu.fr"
+apache_listen_port: 80
+
+# Parametres PHP (facultatif)
+php_upload_max_filesize: 64M
+php_post_max_size: 128M
